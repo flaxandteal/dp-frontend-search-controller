@@ -7,12 +7,12 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/ONSdigital/dp-api-clients-go/health"
 	componenttest "github.com/ONSdigital/dp-component-test"
 	"github.com/ONSdigital/dp-frontend-search-controller/config"
 	"github.com/ONSdigital/dp-frontend-search-controller/service"
 	"github.com/ONSdigital/dp-frontend-search-controller/service/mocks"
 	"github.com/ONSdigital/dp-healthcheck/healthcheck"
-	"github.com/ONSdigital/dp-mongodb/health"
 	"github.com/ONSdigital/log.go/log"
 	"github.com/maxcnunes/httpfake"
 	"github.com/pkg/errors"
